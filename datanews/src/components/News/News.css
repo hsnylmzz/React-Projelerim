@@ -1,0 +1,59 @@
+@import "../../index.css";
+
+.news{
+    margin: 20px 0px;
+}
+.news img{
+    width: 100%;
+    display: block;
+    min-height: 13rem;
+}
+@media screen and (min-width: 768px) {
+    .news{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-column-gap: 1rem;
+    }
+}
+
+.img-container
+{
+    position: relative;
+}
+.close-btn
+{
+    position: absolute;
+    display: block;
+    top: 5%;
+    right: 5%;
+    color: #82b340;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0,3s;
+    opacity: 0;
+}
+.img-container:hover .close-btn
+{
+    opacity: 1;
+}
+.news-info
+{
+    padding: 1rem 0.5rem;
+}
+.news-info h3{
+    text-transform: uppercase;
+    color: #82b340;
+}
+.news-info h4{
+    text-transform: capitalize;
+    margin: 0.2rem 0 0.6rem 0;
+}
+.news-info h5{
+    text-transform: capitalize;
+}
+.news-info h5 span{
+    color: #82b340;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
