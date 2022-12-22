@@ -84,7 +84,7 @@ class ShoppingCart extends Component{
         //console.log("render : Shopping Cart")
         return(
             <div className="container-fluid">
-                <h4>Alışveriş Kartı</h4>
+                <h4>ürünler</h4>
                 <div className="row">{this.state.products.map((prod)=>{
                     return <Product key={prod.id} 
                     onIncrement={this.handleIncrement}
