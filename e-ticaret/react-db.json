@@ -1,0 +1,14 @@
+{
+    "products" : [
+        {"id" : 1,"productName" : "iPhone 14","price" : 30000,"quantity" : 0},
+        {"id" : 2,"productName" : "Asus Vivobook Pro 14X OLED","price" : 20000,"quantity" : 0},
+        {"id" : 3,"productName" : "Samsung Galaxy S21","price" : 14500,"quantity" : 0},
+        {"id" : 4,"productName" : "Sony Play Station 5","price" : 18300,"quantity" : 0},
+        {"id" : 5,"productName" : "Xbox Series S","price" : 7380,"quantity" : 0},
+        {"id" : 6,"productName" : "Philips Android Smart LED TV","price" : 12800,"quantity" : 0}
+    ],
+    "users":[
+        {"id":1,"email" : "hsn@gmail.com","password":"hsn123"},
+        {"id":2,"email" : "hkn@gmail.com","password":"hkn523"}
+    ]
+}
